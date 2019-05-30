@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    .main-wrap{
+        background-image: url('../../dist/man.jpg');
+        background-position: center center;
+        background-size: cover;
+        color: #ffbc02;
+        font-family: Arial, Helvetica, sans-serif;
+        .content{
+            text-align: center;
+            h1{
+                font-size:1rem;
+                text-transform: uppercase;
+            }
+            .message{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .sale{
+                    h2{
+                        font-family: serif;
+                        margin: 0;
+      
+                    }
+                    h3{
+                        font-size: 6vw;
+                        text-transform: uppercase;
+                        margin: 0;
+                    }
+                }
+                .off-copy{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    border-top: 1px solid #ffbc02;
+                    padding: 1vw 0;
+                    // .or{
+                    //     &::before{
+                    //         content: "";
+                    //         border-bottom: 1pz solid #fff;
+                    //     }
+                    // }
+                    .box{
+                        h4{
+                            margin: 0;
+                            text-transform: uppercase;
+                        }
+                        h5{
+                            font-size:6vw;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            .cta{
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) {
+    
+    body{
+        .main-wrap{
+            .content{
+                    padding: 5.01rem;
+                .message{
+                    flex-direction: row;
+                    .sale{
+                        padding: 3rem;
+                    h2{
+                        font-family: serif;
+                        margin: 0;
+                        font-size: 2rem;
+                    }
+                    h3{
+                        font-size: 6rem;
+                        text-transform: uppercase;
+                        margin: 0;
+                    }
+                }
+                .off-copy{
+                    padding: 1rem;
+                    border-top: none;
+                    border-left: 1px solid #ffbc02;
+                    flex-direction: column;
+                    .box{
+                        h4{
+                            margin: 0;
+                            text-transform: uppercase;
+                        }
+                        h5{
+                            font-size:5vw;
+                            margin: 0;
+                        }
+                        p{
+                            margin: 0;
+                        }
+                    }
+                }
+    }
+            }
+        }
+    }  
+  }
