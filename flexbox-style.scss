@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     .main-wrap{
-        background-image: url('../../dist/man.jpg');
+        background-image: url('../../dist/190528-hp-main-sale-all-furn-md.jpg');
         background-position: center center;
         background-size: cover;
         color: #ffbc02;
@@ -18,7 +18,8 @@ body{
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                    margin: 2rem 0;
+                margin: 2rem 0;
+                justify-content: flex-start;
                 .sale{
                     h2{
                         font-family: serif;
@@ -26,7 +27,7 @@ body{
       
                     }
                     h3{
-                        font-size: 6vw;
+                        font-size: 11.5rem;
                         text-transform: uppercase;
                         margin: 0;
                     }
